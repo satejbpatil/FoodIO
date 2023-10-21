@@ -1,7 +1,7 @@
 import { restaurantList } from "./contants";
 import { useState, useEffect } from "react";
 import Shimmer from "./shimmer";
-import Skeleton from 'react-loading-skeleton'
+import Skeleton from "react-loading-skeleton";
 
 // code for serach bar
 // Images are imported which are used in Search Bar
@@ -11,9 +11,9 @@ import search_logo from "../../Images/search_logo.png";
 function filterData(searchText, restaurants) {
   const filterData = restaurants.filter(
     (restaurant) =>
-      restaurant?.info?.name?.toLowerCase()?.includes(searchText.toLowerCase()) 
-      // ||
-      // restaurant?.info?.cuisines?.toLowerCase()?.includes(searchText.toLowerCase)
+      restaurant?.info?.name?.toLowerCase()?.includes(searchText.toLowerCase())
+    // ||
+    // restaurant?.info?.cuisines?.toLowerCase()?.includes(searchText.toLowerCase)
   );
 
   return filterData;
@@ -258,6 +258,7 @@ const Body = () => {
               // }}
             />
           </div>
+          {/* nc */}
           <div className="search-div1">
             <img src={search_logo} alt="logo" className="search-div-images" />
             <input
@@ -279,6 +280,7 @@ const Body = () => {
             >
               Search
             </button>
+            
           </div>
         </div>
       </div>
