@@ -1,0 +1,149 @@
+/* css for Body */
+.body-sub {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* css for Search Bar */
+.search-div {
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  padding: 20px 189px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: -9px;
+  background-color: white;
+}
+.search-div1 {
+  margin: 0;
+  padding: 0;
+}
+#search-innertext2 {
+  width: 384px;
+}
+.search-innertext {
+  height: 50px;
+  padding: 0px 13px 0px 13px;
+  font-size: 18px;
+  border: none;
+}
+.search-div-images {
+  height: 30px;
+  width: 30px;
+  margin: 14px 0px 0px 10px;
+}
+.search-div-border {
+  width: 70%;
+  border-radius: 13px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 12px 12px 12px #d4ecff;
+}
+.search-innertext:focus {
+  outline: none;
+  border: none;
+}
+
+/* css for Inspiration for your first order */
+.inspiration {
+  height: auto;
+  padding: 50px 189px 0px 189px;
+  width: 100%;
+}
+.inspiration-items-imgs {
+  height: 150px;
+  width: 150px;
+  border-radius: 73px;
+}
+.inspiration-items-names {
+  text-align: center;
+  margin: 8px 0px 0px 0px;
+}
+.inspiration-items-div {
+  margin: 30px 20px 0px 20px;
+}
+.inspiration-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* css for Top brands for you */
+.topbrand {
+  height: auto;
+  padding: 50px 185px 0px 185px;
+  width: 100%;
+}
+.topbrand-items-imgs {
+  height: 150px;
+  width: 150px;
+  border-radius: 73px;
+}
+.topbrand-items-names {
+  text-align: center;
+  margin: 8px 0px 0px 0px;
+}
+.topbrand-items-div {
+  margin: 30px 20px 0px 20px;
+}
+.topbrand-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card-container {
+  margin: 12px 17px 12px 17px;
+  width: 349px;
+  height: auto;
+  border-radius: 23px;
+}
+.card-container:hover {
+  cursor: pointer;
+  /* box-shadow: 12px 12px 12px #d4ecff; */
+  border: 5px solid white;
+  /* background-color: #f9fdff; */
+  /* transform: translateY(-15px); */
+}
+.lower-info1,
+.lower-info2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0px 0px 10px;
+  padding: 0px 10px 0px 10px;
+}
+.cards-imgs {
+  width: 100%;
+  height: 240px;
+  border-radius: 22px;
+}
+.rating {
+  padding: 4px 15px 0px 10px;
+  background-color: rgb(127, 224, 127);
+  border-radius: 10px;
+  margin: 0px 0px 0px 10px;
+}
+.lower-info2 {
+  margin: 20px 0px 25px 0px;
+}
+.extra-info {
+  width: 210px;
+}
+.prize {
+  font-size: medium;
+  color: red;
+}
+.number-cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 185px 0px 185px;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+.item-name {
+  width: 200px;
+}
